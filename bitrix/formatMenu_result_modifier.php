@@ -1,4 +1,10 @@
 <?
+/*
+* result_modifier.php для компонента bitrix:menu
+* Преобразует массив меню в удобную иерархическую структуру.
+*
+*
+*/
 $formatMenuTree = function ($listmenu,$depth,&$i,&$numBreak) use (&$formatMenuTree)
 {
 	$menu = array();
